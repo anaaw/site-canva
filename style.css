@@ -1,4 +1,6 @@
+@import url('https://fonts.cdnfonts.com/css/stranger-things');
 /*https://en.namu.wiki/w/%EC%9C%8C%20%EB%B0%94%EC%9D%B4%EC%96%B4%EC%8A%A4*/
+/*https://canva.link/ggz7v3h8c97boo9 - REF GUI*/
 
 
 * {
@@ -23,9 +25,7 @@ header{
 #logoh { /* Logo Header */
     width: 632px;
     height: 200px;
-   
-    
-   
+    object-fit: cover;
 }
 
 
@@ -40,18 +40,22 @@ a{
     text-decoration:none;
     color: aliceblue;
 }
-
+/*-----------------------------------------ESTILO NAV  ---------------------------------------------------------*/ 
 
 
 #sobre{
+
     background-image: url(/img/bghorizontal.webp);
-    font-size: 40px;
+    object-fit: cover;
+    font-size: 37px;
     text-align: center;
     width: 100%;
     height: 400px;
     background-position: center;
     background-size:cover;
-
+ 
+                                                
+  
 }
    
 
@@ -59,46 +63,49 @@ a{
 
 #personagens{
 background-color: #02183F; 
-font-family: 'Cinzel', 'Times New Roman';
+font-family:                                         'Stranger Things', sans-serif;
 }
 
-.caixapersonagens{
-    width: 300px; 
-    height: 300px;
-    background-color:red ;
-    padding-left: 20px;
+.caixapersonagens{ /*Caixa invísivel personagens*/
+    width: 200px; 
+    height: 20px;
+    padding-left: 5px;
     padding-top: 20px;
     margin-top: 20px;
-    margin-left:20px;
-    align-items: center;
+    margin-left:40px;
+    align-items: baseline;
     display: inline-block;
 }
 
 .pimg{ /*Imagens Personagens*/
     width: 280px; 
     height: 280px;
+    object-fit: contain;
+   
+   
 }
 
 .pnomes{ /*Nomes Personagens*/
-    text-align: center;
+    text-align: right;
 }
 
-.arcosf{
-    background-color: blue;
-    width: 600px; 
-    height: 250px;
+.arcosf{ /*Box personagens*/
+    background-color: black;
+    width: 610px; 
+    height: 310px;
     margin-top: 10px;
     margin-left:50px;
     margin-bottom: 50px;
     display: inline-block;
-    border: 5px, solid, white;
+    border: 4px, solid,red;
     font-size: 100px;
     text-align:center;
 }
 
-.aimg{
+.aimg{ /*Imagens Arco*/
     width: 600px; 
     height: 250px;
+    object-fit: cover;
 }
 
 .anomes{
